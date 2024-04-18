@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav >
+        <div class="button" >Home</div>
+        <div class="button">Features</div>
+    </nav>
+    <form>
+        <h1>BMI CALCULATOR :</h1>
+       <label>Height of CM: </label><input type="text" id="height"  placeholder="Enter CM number."><br><br>
+       <label>Weight of KG: </label><input type="text" id="weight"  placeholder="Enter KG number."><br><br>
+       <button>Calculate</button><br><br>
+       <div id="result"></div>
+       <h1>BMI WEIGHT GUIDE :</h1>
+      <p> Under Weight = Less then 18.6.<br></p>
+       <p> Normal Range = 18.6 and 24.9.<br></p>
+        <p>Overweight = Greater than 24.9.</p>
+    </form>
+    <style>
+        nav{
+            padding: 10px;
+            margin: 10px;
+            background-color: red;
+            text-align: center;
+            height:60%;
+            width:100% ;
+            
+        }
+        .button{
+            height: 25px;
+            width: 280px;
+            border-radius: 5px;
+            border: 2px solid white;
+            text-align: center;
+            justify-content: center;
+            justify-self:center;
+            color: blue;
+            background-color: yellow;
+            display:inline-block;
+            margin: 5px;
+            padding: 15px;
+            text-overflow:initial;
+            cursor: pointer;   
+        }
+        form,h1,p,label{
+            text-align: center;
+        }
+    button{
+        padding: 10px;
+        color:white;
+        border: 2px solid white;
+        border-radius: 10px;
+        background-color: blue;
+        cursor: pointer;
+        
+
+    }
+    </style>
+    <script src="35.2document.js"></script>
+</body>
+</html>
